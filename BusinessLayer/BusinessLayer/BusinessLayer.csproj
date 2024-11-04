@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F7FCC31-1696-4CA9-B476-21F3E50D79A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLayer</RootNamespace>
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BANGLUONG.cs" />
+    <Compile Include="CHAMCONGTINHLUONG.cs" />
+    <Compile Include="CHUCVU.cs" />
+    <Compile Include="CHUNGCHI.cs" />
+    <Compile Include="CHUYENMON.cs" />
+    <Compile Include="DANTOC.cs" />
+    <Compile Include="DINHMUCXANGXE.cs" />
+    <Compile Include="DTO\BANGLUONG_DTO.cs" />
+    <Compile Include="DTO\CHUNGCHI_DTO.cs" />
+    <Compile Include="DTO\CHUYENMON_DTO.cs" />
+    <Compile Include="DTO\HSTLTHEOBAC_DTO.cs" />
+    <Compile Include="DTO\NGOAINGU_DTO.cs" />
+    <Compile Include="DTO\NGUOIDUNG_DTO.cs" />
+    <Compile Include="DTO\NHANVIEN_DTO.cs" />
+    <Compile Include="DTO\QLTAMUNG_DTO.cs" />
+    <Compile Include="DTO\QUATRINHLUONG_DTO.cs" />
+    <Compile Include="HSTLTHEOBAC.cs" />
+    <Compile Include="MUCLUONGTOITHIEU.cs" />
+    <Compile Include="NGOAINGU.cs" />
+    <Compile Include="NGUOIDUNG.cs" />
+    <Compile Include="NHANVIEN.cs" />
+    <Compile Include="PHONGBAN.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLTAMUNG.cs" />
+    <Compile Include="QUANHETHANNHAN.cs" />
+    <Compile Include="QUATRINHLUONG.cs" />
+    <Compile Include="THANGLUONG.cs" />
+    <Compile Include="TINHTHANH.cs" />
+    <Compile Include="TONGIAO.cs" />
+    <Compile Include="TRANGTHAILAMVIEC.cs" />
+    <Compile Include="TRINHDOCHUYENMON.cs" />
+    <Compile Include="TRINHDOLYLUANCHINHTRI.cs" />
+    <Compile Include="TRINHDONGOAINGU.cs" />
+    <Compile Include="TRINHDOVANHOA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{2a77a66d-e2c9-4ecc-8abd-36d1936e693e}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

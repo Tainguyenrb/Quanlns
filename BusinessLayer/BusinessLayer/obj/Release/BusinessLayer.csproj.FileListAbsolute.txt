@@ -1,0 +1,2 @@
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
