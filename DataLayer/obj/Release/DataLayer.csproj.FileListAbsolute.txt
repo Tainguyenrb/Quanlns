@@ -1,0 +1,12 @@
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\DataLayer.dll.config
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\DataLayer.dll
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\EntityFramework.dll
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\EntityFramework.xml
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\obj\Release\DataLayer.csproj.AssemblyReference.cache
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\obj\Release\DataLayer.csproj.Up2Date
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\obj\Release\DataLayer.dll
+C:\Users\acer\OneDrive\Desktop\DoantotnghiepQlnhansu\QUANLYNHANSU\DataLayer\obj\Release\DataLayer.pdb
